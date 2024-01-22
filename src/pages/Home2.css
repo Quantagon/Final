@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+.home {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin-left: 120px;
+}
+
+
+.ill {
+
+    display: flex;
+    height: 500px;
+    float: right;
+    margin-top: 0px;
+    top: 10px;
+    position: relative;
+    right: 0;
+    z-index: -1;
+    height: 430px;
+    top: 5%;
+}
+
+.heading {
+    font-size: 48px;
+
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.subhead {
+    font-size: 24px;
+
+    font-weight: 500;
+}
+
+.btn {
+    padding: 15px 30px;
+    /* margin: 5px; */
+    border-radius: 10px;
+    background-color: rgb(10, 10, 93);
+    color: white;
+    margin-left: 120px;
+
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn2 {
+    margin-left: 28px;
+    border: 2px solid rgb(10, 10, 93);
+    background-color: white;
+    color: rgb(10, 10, 93);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(42, 42, 118);
+    opacity: 0.99;
+    transform: scale(1.01, 1.01);
+}
+
+.btn2:hover {
+    background-color: rgb(241, 241, 241);
+    color: rgb(42, 42, 118);
+    transform: scale(1.01, 1.01);
+}
+
+.coins:hover {
+    background-color: rgb(69, 34, 97);
+    background-image:
+        radial-gradient(at 0% 0%, rgb(72, 26, 72) 0, transparent 80%);
+    /* color: black; */
+    transition: 0.3s;
+}
+
+.portfolio_cards:hover {
+    /* background-color: rgb(49, 19, 74); */
+    background: rgb(39, 51, 89, 0.4);
+    background-image:
+        radial-gradient(at 0% 0%, rgb(72, 26, 72) 0, transparent 80%);
+    transition: 0.3s;
+}

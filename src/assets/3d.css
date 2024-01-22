@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+.blue_3d {
+    background-color: rgb(17, 17, 137);
+    box-shadow: 4px 4px 12px rgba(17, 17, 137, 0.33), inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+}
+
+.red_3d {
+    background-color: rgb(239, 11, 11);
+    box-shadow: 4px 4px 12px rgba(239, 11, 11, 0.33), inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+}
+
+.green_3d {
+    background-color: rgb(32, 193, 38);
+    box-shadow: 4px 4px 12px rgba(20, 143, 28, 0.461), inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+}
+
+.box_3d {
+    box-shadow: 4px 4px 15px rgba(154, 154, 154, 0.338), inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+}
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.img_create {
+    z-index: -1;
+    height: 450px
+}
+
+.red_3d:hover {
+    transition: ease 400ms;
+    transform: scale(1.04);
+}
+
+.green_3d:hover {
+    transition: ease 400ms;
+    transform: scale(1.04);
+}
+
+.blue_3d:hover {
+    transition: ease 400ms;
+    transform: scale(1.04);
+}
+
+.white_3d {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 13px rgba(255, 255, 255, 0.281), inset 2px 2px 15px rgba(17, 17, 137, 0.313);
+}
+
+.white_3d:hover {
+    transition: ease 300ms;
+    transform: scale(1.04);
+}
+
+.blue_3d_nav {
+    background-color: rgb(17, 17, 137);
+    box-shadow: 4px 4px 12px rgba(17, 17, 137, 0.33), inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+}
+
+.nav_btn:hover {
+    transition: ease 200ms;
+    transform: scale(1.04);
+}
+
+.piggy {
+    height: 45px;
+    position: relative;
+    margin-top: -8px;
+    margin-left: -40px;
+    margin-right: 20px;
+}
