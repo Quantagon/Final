@@ -15,20 +15,19 @@ const Home2 = () => {
         <div className="">
           {/* <img src={vector}></img> */}
           <p className="mt-36 text-gradient text-3xl md:text-6xl text-white">
-            Invest and Grow
-          </p>
+          Quantagon          </p>
           <p className="text-gradient text-lg md:text-2xl text-white mt-4 mb-4">
-            Build your diversified portfolio with us
-          </p>
+          Crafting Wealth, With Strategy's Stealth
+                    </p>
           <br></br>
           <Link to="/signin">
             <button onClick={""} className="btn">
-              SignUp with Coindcx
+              Sign Up
             </button>
           </Link>
           <Link to="/login">
             <button onClick={""} className="btn2 btn mb-10 white-glassmorphism">
-              Login with Coindcx
+              Log in
             </button>
           </Link>
           {/* <img className='ill' src={logo2}></img> */}
@@ -38,9 +37,9 @@ const Home2 = () => {
             <FaDiscord className="ease-in duration-300 fill-violet-600 mr-4 h-8 w-8 cursor-pointer hover:scale-75" />
           </div>
         </div>
-        <div className="text-white mt-24">
+        {/* <div className="text-white mt-24">
           <Coins />
-        </div>
+        </div> */}
       </div>
     </>
   );
