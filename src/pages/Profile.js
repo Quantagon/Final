@@ -56,7 +56,7 @@ const Profile = () => {
             className="h-32 w-32 rounded-full"
           />
           <div className="text-5xl font-bold ml-20 text-white">
-            Adam<br></br>
+            Rahul<br></br>
             {/* <div className="text-lg mt-8 rounded-2xl border-2"> Following</div> */}
             <button className="blue_3d mt-4 flex text-xs text-white px-5 cursor-default text-center">
               <span className="mt-0.5">FOLLOWING</span>
@@ -65,13 +65,17 @@ const Profile = () => {
           </div>
         </div>
         <div className="text-white text-2xl font-medium ml-14 mt-8 flex flex-row justify-evenly">
+        <div>
+            <h3 className="mb-1 text-sm">PREMIUM MEMBERS</h3>
+            <h3 className="text-blue-500 font-semibold text-center	">0</h3>
+          </div>
           <div>
             <h3 className="mb-1 text-sm"> FOLLOWERS</h3>
-            <h3 className="text-blue-500 font-semibold">10</h3>
+            <h3 className="text-blue-500 font-semibold text-center	">0</h3>
           </div>
           <div>
             <h3 className="mb-1 text-sm"> FOLLOWING</h3>
-            <h3 className="text-blue-500 font-semibold">4</h3>
+            <h3 className="text-blue-500 font-semibold text-center	">0</h3>
           </div>
         </div>
       </div>
@@ -141,7 +145,7 @@ function Card({ data, i }) {
           {" "}
           <span className="text-gray-600 font-normal">Allocation : </span>
           {data[i]?.allocation}
-        </h3>
+        </h3> 
       </div>
     </div>
   );

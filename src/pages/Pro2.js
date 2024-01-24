@@ -34,8 +34,8 @@ const Pro2 = () => {
         </div>
     </div>
     <div className="col-span-1 text-2xl font-semibold ml-20 flex flex-col justify-evenly  ">
-        <h3 className='mb-4'> Followers : 1.2k</h3>
-        <h3> Following : 141 </h3>
+        <h3 className='mb-4'> Followers : 0</h3>
+        <h3> Following : 0 </h3>
     </div>
 </div>
 

@@ -91,9 +91,9 @@ const Friends = () => {
     <>
       <div className="m-10">
         <h1 className="font-bold text-3xl text-blue-600 mt-16 ml-6">
-          Expert Friends
+          Explore Communities
         </h1>
-        <div className="ml-6 text-white">Investment details</div>
+        {/* <div className="ml-6 text-white">Investment details</div> */}
         <div className="grid grid-cols-2 gap-4">
           {expert?.map((data) => (
             <Portfolio data={data} />

@@ -16,6 +16,7 @@ import Mybasket from './pages/Mybasket';
 import Explore from './components/Explore';
 import Profile from './pages/Profile';
 import Friends from './pages/Friends';
+import Lists from './pages/Lists';
 import ViewProfile from './pages/ViewProfile';
 import Pro2 from './pages/Pro2';
 import Prolisa from './pages/Prolisa';
@@ -41,6 +42,7 @@ function App() {
           <Route path="/explore" element={<Explore />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/friends" element={<Friends />} />
+          <Route path='/lists' element={<Lists />} />
           <Route path="/viewprofile" element={<ViewProfile />} />
           <Route path="/pro2" element={<Pro2 />} />
           <Route path="/prol" element={<Prolisa />} />

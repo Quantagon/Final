@@ -13,11 +13,16 @@ function Home({ setBasket, basket }) {
 
     const [showbasket, setShowbasketdata] = useState()
     const [data, setdata] = useState([
-
+        {
+            name: 'Storage Based',
+            desc: 'This basket consists Storage based cryptos like ICP, Filecoin and BTT',
+            desc2: 'This bucket Is handled by Pritham',
+            title: 'Open for All'
+        },
         {
             name: 'Bluechips',
             desc: 'This basket consists of 50% BTC and 50% ETH, These are higher marketcap coins',
-            desc2: 'This scheme has crossed over 50k users.',
+            desc2: 'This Basket is Managed by Rahul',
             title: 'Popular'
         },
         {
@@ -113,7 +118,7 @@ function Home({ setBasket, basket }) {
                     </div>
                     {data.map((datas) => (
                         <>
-                            {datas.name === 'Bluechips' ? () => { setDisabled(false) } : () => setDisabled(true)}
+                            {/* {datas.name === 'Bluechips' ? () => { setDisabled(false) } : () => setDisabled(true)} */}
                             <Investment disabled={disabled} setBasket={setBasket} basket={basket} title={datas.name} des={datas.desc} tag={datas.title} tagdes={datas.desc2} />
                         </>
                     ))}

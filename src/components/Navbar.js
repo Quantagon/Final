@@ -69,6 +69,7 @@ function Navbar() {
           <h5 className='mx-3 nav_btn text-white'><Link to="/create">Create</Link></h5>
           <h5 className='mx-3 nav_btn text-white'><Link to="/mybasket">MyBaskets</Link></h5>
           <h5 className='mx-3 nav_btn text-white'><Link to="/friends">Friends</Link></h5>
+          <h5 className='mx-3 nav_btn text-white'><Link to="/lists">Lists</Link></h5>
         </div>
         <div className="flex mr-12">
           {data.address !== "" ? (
