@@ -22,7 +22,7 @@ function Investment(props) {
             </div>
             <div className="">
                 <Link to="/details">
-                    <button disabled={props.disabled} className='Investment_viewbtn text-sm border-2 p-2 text-blue-800 border-blue-800 hover:bg-blue-800 hover:text-white rounded-xl' type="submit">View Basket</button>
+                    <button  className='Investment_viewbtn text-sm border-2 p-2 text-blue-800 border-blue-800 hover:bg-blue-800 hover:text-white rounded-xl' type="submit">View Basket</button>
 
                 </Link>
 

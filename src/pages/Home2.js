@@ -31,11 +31,11 @@ const Home2 = () => {
             </button>
           </Link>
           {/* <img className='ill' src={logo2}></img> */}
-          <div className="icons flex ml-72">
+          {/* <div className="icons flex ml-72">
             <FcGoogle className="ease-in duration-300 mr-7 h-8 w-8 cursor-pointer hover:scale-75 " />
             <AiFillTwitterCircle className="ease-in duration-300 fill-sky-500 cursor-pointer mr-7 h-8 w-8 hover:scale-75" />
             <FaDiscord className="ease-in duration-300 fill-violet-600 mr-4 h-8 w-8 cursor-pointer hover:scale-75" />
-          </div>
+          </div> */}
         </div>
         {/* <div className="text-white mt-24">
           <Coins />

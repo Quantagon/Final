@@ -20,6 +20,33 @@ function Details() {
         value: 10,
     }]
 
+    const [info, setinfo] = useState([
+        {
+            name: 'Storage Based',
+            desc: 'This basket consists Storage based cryptos like ICP, Filecoin and BTT',
+            desc2: 'This bucket Is handled by Pritham',
+            title: 'Open for All'
+        },
+        {
+            name: 'Bluechips',
+            desc: 'This basket consists of 50% BTC and 50% ETH, These are higher marketcap coins',
+            desc2: 'This Basket is Managed by Rahul',
+            title: 'Popular'
+        },
+        {
+            name: 'Flaming hot',
+            desc: 'This contains GLMR,IMX,JOE',
+            desc2: 'This scheme has crossed over 20k users',
+            title: 'Premium'
+        },
+        {
+            name: 'Metaverse',
+            desc: 'This scheme consists of web3 metaverse project',
+            desc2: 'Take premium sub to access this bucket',
+            title: 'Premium'
+        }
+    ])
+
     const [amount, setAmount] = useState(0)
 
     const investHandler = () => {
@@ -87,7 +114,7 @@ function Details() {
                 {modal ? <Modal setShowModal={setShowModal} /> : <></>}
             </div>
             {/* <div className="ml-[15rem] mt-8">
-                <h3 className='text-2xl font-semibold'>Weights</h3>
+                <h3 className='text-2xl font-semibold text-white'>Weights</h3>
                 <div
                     ref={ref}
                     // here we use parent container size to resize chart depends on it 

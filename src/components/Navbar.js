@@ -64,7 +64,8 @@ function Navbar() {
     return (
         <div className='navbar blue-glassmorphism flex fixed justify-between bg-white h-13 blue_3d_nav mx-10 ml-12 w-11/12 mt-5 p-2'>
         <div className=" flex mx-12 items-center">
-          <img className="piggy p-0" src={Quantagon}></img>
+          <img className="piggy p-0" src={Quantagon} />
+          <h5 className='mx-3 nav_btn text-white'><Link to="/">Home</Link></h5>
           <h5 className='mx-3 nav_btn text-white'><Link to="/home2">Discover</Link></h5>
           <h5 className='mx-3 nav_btn text-white'><Link to="/create">Create</Link></h5>
           <h5 className='mx-3 nav_btn text-white'><Link to="/mybasket">MyBaskets</Link></h5>

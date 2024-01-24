@@ -4,6 +4,7 @@ import { FaLock } from "react-icons/fa";
 import "../assets/glassmorphism.css";
 import Explore from "../components/Explore";
 import FriendsFollow from "../components/FriendsFollow";
+import Kart from "../components/Kart";
 
 import { useSelector, useDispatch } from "react-redux";
 import { storeinfo } from "../features/friends/friends";
@@ -112,8 +113,10 @@ const Friends = () => {
         <h1 className="text-3xl font-bold ml-14 mt-16 text-blue-600">
           Following
         </h1>
+        
 
         <div className="grid grid-cols-2 md:grid-cols-4 grid-flow-row gap-3 p-10">
+        <Kart />
           {followingData?.map((data) => (
             <div onClick={() => {
               dispatch(storeview(data))

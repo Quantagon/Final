@@ -9,7 +9,7 @@ import axios from 'axios'
 import '../assets/3d.css'
 
 function Home({ setBasket, basket }) {
-    const [disabled, setDisabled] = useState(false)
+    // const [disabled, setDisabled] = useState(false)
 
     const [showbasket, setShowbasketdata] = useState()
     const [data, setdata] = useState([
@@ -119,7 +119,7 @@ function Home({ setBasket, basket }) {
                     {data.map((datas) => (
                         <>
                             {/* {datas.name === 'Bluechips' ? () => { setDisabled(false) } : () => setDisabled(true)} */}
-                            <Investment disabled={disabled} setBasket={setBasket} basket={basket} title={datas.name} des={datas.desc} tag={datas.title} tagdes={datas.desc2} />
+                            <Investment  setBasket={setBasket} basket={basket} title={datas.name} des={datas.desc} tag={datas.title} tagdes={datas.desc2} />
                         </>
                     ))}
 
@@ -131,7 +131,7 @@ function Home({ setBasket, basket }) {
                         {apidata.map((datas) => (
                             <>
                                 {/* {datas.name === 'Bluechips' ? () => { setDisabled(false) } : () => setDisabled(true)} */}
-                                <Investment disabled={disabled} setBasket={setBasket} basket={basket} title={datas.name} des={datas.desc} tag={datas.title} tagdes={datas.desc2} />
+                                <Investment setBasket={setBasket} basket={basket} title={datas.name} des={datas.desc} tag={datas.title} tagdes={datas.desc2} />
                             </>
                         ))}
 

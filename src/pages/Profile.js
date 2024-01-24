@@ -51,7 +51,7 @@ const Profile = () => {
       <div className="bg-white blue-glassmorphism mx-12 mt-10 rounded-xl py-12 mb-8 px-12 grid grid-cols-2">
         <div className="flex items-center col-span-1 border-r-2	">
           <img
-            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
+              
             alt=""
             className="h-32 w-32 rounded-full"
           />
